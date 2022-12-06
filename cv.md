@@ -21,11 +21,11 @@ Also have some experience in the field of technical support for users of a telec
 I am fond of photography, 3D modeling and inventions. 
 
 ## Code examples:
-[GitHub:](https://github.com/maksimzinchenko)
+[GitHub:](https://github.com/maksimzinchenko "https://github.com/maksimzinchenko")
 
-[Leetcode:](https://leetcode.com/woxxel/)
+[Leetcode:](https://leetcode.com/woxxel/ "https://leetcode.com/woxxel/")
 
-[Codewars:](https://www.codewars.com/users/woxxel)
+[Codewars:](https://www.codewars.com/users/woxxel "https://www.codewars.com/users/woxxel")
 
 ## Skills and Proficiency:
 
@@ -35,9 +35,9 @@ HTML5, CSS, SCSS
 
 JavaScript, PHP, Python, Java, Visual Basic and VBA, etc.
 
-Prestashop, Wordpress, Django, Flask custom engines
+SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase), SQLite)
 
-SQL
+Prestashop, Wordpress, Django, Flask custom engines
 
 Machine learning(DeepPavlov)
 
@@ -45,14 +45,13 @@ OpenCV
 
 Apache, NGINX
 
-PostgreSQL, MySQL, 
-
 AWS, GCC
 
 Git, GitHub, Jenkins, Docker
 
+System Administration, Computer Networking, Computer and equipment repair
 
-System Administration, Computer Networking, Computer and equipment repair, Arduino, IoT, etc.
+Arduino, IoT, 3d modeling and printing, etc.
 
 Website maintenance, SEO.
 
@@ -72,6 +71,6 @@ Russian - Fluent
 
 
 ## Tests, Assessments, etc.
-[Codeacademy:](https://www.codecademy.com/profiles/lipkij)
+[Codeacademy:](https://www.codecademy.com/profiles/lipkij "https://www.codecademy.com/profiles/lipkij")
 
-[Indeed.com:](https://share.indeedassessments.com/attempts/b1c86d56f36554577d9f9f16038446a4eed53dc074545cb7)
+[Indeed.com:](https://share.indeedassessments.com/attempts/b1c86d56f36554577d9f9f16038446a4eed53dc074545cb7 "https://share.indeedassessments.com/attempts/b1c86d56f36554577d9f9f16038446a4eed53dc074545cb7")

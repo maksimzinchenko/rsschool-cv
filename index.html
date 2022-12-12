@@ -29,6 +29,9 @@
               <a href="#projects" class="menu-link">Projects</a>
             </li>
             <li class="menu-item">
+              <a href="#code" class="menu-link">Code</a>
+            </li>
+            <li class="menu-item">
               <a href="#education" class="menu-link">Education</a>
             </li>
             <li class="menu-item">
@@ -41,7 +44,8 @@
     <main>
       <div class="container">
         <section class="section" id="profile">
-          <h1 class="section__title"></h1>
+          <h1 class="section__title">Maksim Zinchenko</h1>
+          <img class="photo" src="avatar.jpg" />
         </section>
         <section class="section" id="contacts">
           <h2 class="section__title">Contacts</h2>
@@ -105,9 +109,80 @@
         </section>
         <section class="section" id="courses">
           <h2 class="section__title">Courses</h2>
+          <div class="courses-list">
+            <ul>
+              <li class="courses-list__item">
+                <a
+                  class="courses-list__link"
+                  href="https://www.codecademy.com/profiles/lipkij"
+                  >Codeacademy: https://www.codecademy.com/profiles/lipkij</a
+                >
+              </li>
+              <li class="courses-list__item">
+                <a
+                  class="courses-list__link"
+                  href="https://www.w3profile.com/woxxel"
+                  >www.w3schools.com: https://www.w3profile.com/woxxel</a
+                >
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="section" id="projects">
           <h2 class="section__title">Projects</h2>
+          <ul class="projects-list">
+            <li class="project-list__item">
+              <a class="project-list__link" href="https://alcisdom.com/"
+                >Real estate agency website: https://alcisdom.com/</a
+              >
+            </li>
+            <li class="project-list__item">
+              <a
+                class="project-list__link"
+                href="https://www.youtube.com/watch?v=CucgqOaN1qQ"
+                >Youtube stream chat game engine:
+                https://www.youtube.com/watch?v=CucgqOaN1qQ</a
+              >
+            </li>
+            <li class="project-list__item">
+              <a
+                class="project-list__link"
+                href="https://github.com/maksimzinchenko/JSPuzzle"
+                >Simple JS memory puzzle games:
+                https://github.com/maksimzinchenko/JSPuzzle</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section__title">Code</h2>
+          <div class="code_wrapper">
+            <pre>
+                const timerManager = {
+                    timersIDArray: [],
+                    setTimeout: function (fn, delay, ...params) {
+                        let timerId = setTimeout(fn, delay, ...params);
+                        this.timersIDArray.push(timerId);
+                        return timerId;
+                    },
+                    clearTimeout: function (timerId) {
+                        let index = this.timersIDArray.indexOf(timerId);
+                        if (index > -1) {
+                            this.timersIDArray.splice(index, 1);
+                            clearTimeout(index);
+                        }
+                    },
+                    clearAllTimeout: function () {
+                        while (this.timersIDArray.length > 0) {
+                            let index = this.timersIDArray.pop();
+                            clearTimeout(index);
+                        }
+                    }
+                }
+              </pre
+            >
+          </div>
         </section>
         <section class="section" id="education">
           <h2 class="section__title">Education</h2>
@@ -118,7 +193,6 @@
         <section class="section" id="languages">
           <h2 class="section__title">Languages</h2>
           <p>English - Intermediate</p>
-
           <p>Russian - Fluent</p>
         </section>
       </div>

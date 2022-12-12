@@ -3,11 +3,12 @@
 }
 
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
   scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container {
@@ -16,13 +17,18 @@ html {
 }
 
 .menu-list {
-    list-style: none;
-  }
+  list-style: none;
+  display: flex;
+}
 
-  .menu-link {
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none;
-    font-size: large;
-    transition: .3s;
-  }
+.menu-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: large;
+  transition: 0.3s;
+}
+
+.photo {
+    border-radius: 50%;
+}

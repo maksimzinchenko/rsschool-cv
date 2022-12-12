@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  border: 1px solid red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.menu-list {
+    list-style: none;
+  }
+
+  .menu-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: large;
+    transition: .3s;
+  }

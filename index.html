@@ -9,196 +9,208 @@
     <link rel="icon" href="cv.ico" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a href="#contacts" class="menu-link">Contacts</a>
-            </li>
-            <li class="menu-item">
-              <a href="#about" class="menu-link">About</a>
-            </li>
-            <li class="menu-item">
-              <a href="#skills" class="menu-link">Skills</a>
-            </li>
-            <li class="menu-item">
-              <a href="#courses" class="menu-link">Courses</a>
-            </li>
-            <li class="menu-item">
-              <a href="#projects" class="menu-link">Projects</a>
-            </li>
-            <li class="menu-item">
-              <a href="#code" class="menu-link">Code</a>
-            </li>
-            <li class="menu-item">
-              <a href="#education" class="menu-link">Education</a>
-            </li>
-            <li class="menu-item">
-              <a href="#languages" class="menu-link">Languages</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header__inner">
+          <h1 class="header__title">CV: Full stack developer</h1>
+          <nav class="menu">
+            <button class="menu__button" id="menu__button">> Menu</button>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="section" id="profile">
-          <h1 class="section__title">Maksim Zinchenko</h1>
-          <img class="photo" src="avatar.jpg" />
-        </section>
-        <section class="section" id="contacts">
-          <h2 class="section__title">Contacts</h2>
-          <ul class="contact-list">
-            <li class="contact-item">Telegram: @Woxxel</li>
-            <li class="contact-item">E-mail: lipkij@gmail.com</li>
-            <li class="contact-item">Phone: +995557727266</li>
-          </ul>
-        </section>
-        <section class="section" id="about">
-          <h2 class="section__title">About</h2>
-          <p>
-            I try to study new technologies, deal with pilot developments and
-            implement them in practice.
-          </p>
-          <p>
-            I conduct a regular audit of the technologies studied and the
-            knowledge gained.
-          </p>
-          <p>Have small experience in training IT specialists for a company.</p>
-          <p>
-            Also have some experience in the field of technical support for
-            users of a telecommunications provider.
-          </p>
-        </section>
-        <section class="section" id="skills">
-          <h2 class="section__title">Skills</h2>
-          <ul class="skills-list">
-            <li class="skill-item">Windows, Linux, Android. Bash, Cmd.</li>
-            <li class="skill-item">HTML5, CSS, SCSS</li>
-            <li class="skill-item">
-              Python, JavaScript, PHP, Visual Basic and VBA, etc.
-            </li>
-            <li class="skill-item">
-              SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase),
-              SQLite)
-            </li>
-            <li class="skill-item">
-              Prestashop, Wordpress, Django, custom engines
-            </li>
-            <li class="skill-item">Machine learning(DeepPavlov)</li>
-            <li class="skill-item">OpenCV</li>
-            <li class="skill-item">Apache, NGINX</li>
-            <li class="skill-item">AWS, GCC</li>
-            <li class="skill-item">Git, GitHub, Jenkins, Docker</li>
-            <li class="skill-item">
-              System Administration, Computer Networking, Computer and equipment
-              repair
-            </li>
-            <li class="skill-item">
-              Arduino, IoT, 3d modeling and printing, etc.
-            </li>
-            <li class="skill-item">Website maintenance, SEO.</li>
-            <li class="skill-item">
-              Computer graphics, Computer vision, 3D animation, Photography
-            </li>
-            <li class="skill-item">
-              Adobe Photoshop, Adobe Illustrator, Blender
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="courses">
-          <h2 class="section__title">Courses</h2>
-          <div class="courses-list">
-            <ul>
-              <li class="courses-list__item">
-                <a
-                  class="courses-list__link"
-                  href="https://www.codecademy.com/profiles/lipkij"
-                  >Codeacademy: https://www.codecademy.com/profiles/lipkij</a
-                >
-              </li>
-              <li class="courses-list__item">
-                <a
-                  class="courses-list__link"
-                  href="https://www.w3profile.com/woxxel"
-                  >www.w3schools.com: https://www.w3profile.com/woxxel</a
-                >
-              </li>
-            </ul>
+      <section class="section_profile">
+        <div class="container">
+          <div class="section_profile__inner">
+            <h2 class="section_profile__title">Maksim Zinchenko</h2>
+            <img
+              class="section_profile__photo"
+              src="avatar.jpg"
+              alt="My photo"
+            />
+            <div class="section_profile_about">
+              <h2 class="section_profile_about__title">About me</h2>
+              <div class="section_profile_about__content">
+                <p>
+                  Computers and everything connected with them is my field of
+                  activity. Programming for me is a way to create new
+                  technologies, achieve new opportunities and a way to make the
+                  world a better place.
+                </p>
+                <p>
+                  I also have small experience in training IT specialists for a
+                  company and have some experience in the field of technical
+                  support for users of a telecommunications provider.
+                </p>
+              </div>
+            </div>
           </div>
-        </section>
-        <section class="section" id="projects">
-          <h2 class="section__title">Projects</h2>
-          <ul class="projects-list">
-            <li class="project-list__item">
-              <a class="project-list__link" href="https://alcisdom.com/"
-                >Real estate agency website: https://alcisdom.com/</a
-              >
-            </li>
-            <li class="project-list__item">
-              <a
-                class="project-list__link"
-                href="https://www.youtube.com/watch?v=CucgqOaN1qQ"
-                >Youtube stream chat game engine:
-                https://www.youtube.com/watch?v=CucgqOaN1qQ</a
-              >
-            </li>
-            <li class="project-list__item">
-              <a
-                class="project-list__link"
-                href="https://github.com/maksimzinchenko/JSPuzzle"
-                >Simple JS memory puzzle games:
-                https://github.com/maksimzinchenko/JSPuzzle</a
-              >
-            </li>
-          </ul>
-        </section>
-
-        <section class="section" id="code">
-          <h2 class="section__title">Code</h2>
-          <div class="code_wrapper">
-            <pre>
-                const timerManager = {
-                    timersIDArray: [],
-                    setTimeout: function (fn, delay, ...params) {
-                        let timerId = setTimeout(fn, delay, ...params);
-                        this.timersIDArray.push(timerId);
-                        return timerId;
-                    },
-                    clearTimeout: function (timerId) {
-                        let index = this.timersIDArray.indexOf(timerId);
-                        if (index > -1) {
-                            this.timersIDArray.splice(index, 1);
-                            clearTimeout(index);
-                        }
-                    },
-                    clearAllTimeout: function () {
-                        while (this.timersIDArray.length > 0) {
-                            let index = this.timersIDArray.pop();
-                            clearTimeout(index);
-                        }
-                    }
-                }
-              </pre
+        </div>
+      </section>
+      <section class="section_skills">
+        <div class="container">
+          <div class="section_skills__inner">
+            <div class="skills_list">
+              <h2 class="skills_list__title">Skills</h2>
+              <ul class="skills-list">
+                <li class="skills-list__item">
+                  Windows, Linux, Android. Bash, Cmd.
+                </li>
+                <li class="skills-list__item">HTML5, CSS, SCSS</li>
+                <li class="skills-list__item">
+                  Python, JavaScript, PHP, Visual Basic and VBA, etc.
+                </li>
+                <li class="skills-list__item">
+                  SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase),
+                  SQLite)
+                </li>
+                <li class="skills-list__item">
+                  Django, Wordpress, Prestashop, custom engines
+                </li>
+                <li class="skills-list__item">Machine learning(DeepPavlov)</li>
+                <li class="skills-list__item">OpenCV</li>
+                <li class="skills-list__item">Apache, NGINX</li>
+                <li class="skills-list__item">AWS, GCC</li>
+                <li class="skills-list__item">Git, GitHub, Jenkins, Docker</li>
+                <li class="skills-list__item">
+                  System Administration, Computer Networking, Computer and
+                  electronic equipment repair
+                </li>
+                <li class="skills-list__item">
+                  Arduino, IoT, 3d modeling and printing, etc.
+                </li>
+                <li class="skills-list__item">Website maintenance, SEO.</li>
+                <li class="skills-list__item">
+                  Computer graphics, Computer vision, 3D animation, Photography
+                </li>
+                <li class="skills-list__item">
+                  Adobe Photoshop, Adobe Illustrator, Gimp, Inkscape, Blender
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h2 class="education__title">Education</h2>
+              <p class="education__item">
+                Master's degree in Computer Science and Information Technologies
+              </p>
+            </div>
+            <div class="courses">
+              <h2 class="courses__title">Courses</h2>
+              <div class="courses-list">
+                <ul>
+                  <li class="courses-list__item">
+                    <a
+                      class="courses-list__link"
+                      href="https://www.codecademy.com/profiles/lipkij"
+                      >Codeacademy</a
+                    >
+                  </li>
+                  <li class="courses-list__item">
+                    <a
+                      class="courses-list__link"
+                      href="https://www.w3profile.com/woxxel"
+                      >www.w3schools.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="projects">
+              <h2 class="projects__title">Projects</h2>
+              <ul class="projects-list">
+                <li class="project-list__item">
+                  <a
+                    class="project-list__link"
+                    href="https://github.com/maksimzinchenko/JSPuzzle"
+                    >Simple JS memory puzzle games</a
+                  >
+                </li>
+                <li class="project-list__item">
+                  <a class="project-list__link" href="https://alcisdom.com/"
+                    >Real estate agency website</a
+                  >
+                </li>
+                <li class="project-list__item">
+                  <a
+                    class="project-list__link"
+                    href="https://www.youtube.com/watch?v=CucgqOaN1qQ"
+                    >Youtube stream chat game engine</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="code">
+              <h2 class="code__title">Code</h2>
+              <div class="code_wrapper">
+                <pre>
+const timerManager = {
+        timersIDArray: [],
+        setTimeout: function (fn, delay, ...params) {
+            let timerId = setTimeout(fn, delay, ...params);
+            this.timersIDArray.push(timerId);
+            return timerId;
+        },
+        clearTimeout: function (timerId) {
+            let index = this.timersIDArray.indexOf(timerId);
+            if (index > -1) {
+                this.timersIDArray.splice(index, 1);
+                clearTimeout(index);
+            }
+        },
+        clearAllTimeout: function () {
+            while (this.timersIDArray.length > 0) {
+                let index = this.timersIDArray.pop();
+                clearTimeout(index);
+            }
+        }
+    }</pre
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_connect">
+        <div class="container">
+          <div class="section_connect__inner">
+            <div class="languages">
+              <h2 class="languages__title">Languages</h2>
+              <ul>
+                <li class="languages__item">English - Intermediate</li>
+                <li class="languages__item">Russian - Fluent (Native)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="gitgub_profile">
+            <a
+              class="github_profile__link"
+              href="https://github.com/maksimzinchenko"
+              >My GitHub</a
             >
           </div>
-        </section>
-        <section class="section" id="education">
-          <h2 class="section__title">Education</h2>
-          <p>
-            Master's degree in Computer Science and Information Technologies
-          </p>
-        </section>
-        <section class="section" id="languages">
-          <h2 class="section__title">Languages</h2>
-          <p>English - Intermediate</p>
-          <p>Russian - Fluent</p>
-        </section>
+          <div class="cv_year">
+            <p>2022</p>
+          </div>
+          <div class="rs_school_block">
+            <a class="rs_school__link" href="https://rs.school/js/">
+              <img
+                class="rs_school__img"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="RS school logo"
+                width="100px"
+              />
+            </a>
+          </div>
+        </div>
       </div>
-    </main>
-    <footer>
-      <div class="container"></div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>

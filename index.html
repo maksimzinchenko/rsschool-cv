@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="cv.ico">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="header__title">Full Stack engineer</h1>
+        <nav class="menu">
+          <div class="menu_list__wrapper" id="menu_list__wrapper">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#contacts" class="menu-link">My Contacts</a>
+              </li>
+              <li class="menu-item">
+                <a href="#about" class="menu-link">About me</a>
+              </li>
+              <li class="menu-item">
+                <a href="#skills" class="menu-link">My Skills</a>
+              </li>
+              <li class="menu-item">
+                <a href="#courses" class="menu-link">Courses</a>
+              </li>
+              <li class="menu-item">
+                <a href="#projects" class="menu-link">My Projects</a>
+              </li>
+              <li class="menu-item">
+                <a href="#code" class="menu-link">Code example</a>
+              </li>
+              <li class="menu-item">
+                <a href="#education" class="menu-link">Education</a>
+              </li>
+              <li class="menu-item">
+                <a href="#languages" class="menu-link">Languages</a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="menu__button box" id="menu__button" onclick="toggleMenu();">&gt; Menu</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section_profile">
+      <div class="container">
+        <div class="section_profile__inner">
+          <h2 class="section_profile__title">Maksim Zinchenko</h2>
+          <img class="section_profile__photo avatar" src="avatar_pix.jpg" alt="My photo">
+          <div class="section_profile_about" id="about">
+            <h2 class="section_profile_about__title section__header">About me</h2>
+            <div class="section_profile_about__content">
+              <p>
+                Computers and everything connected with them is my field of
+                activity. Programming for me is a way to create new
+                technologies, achieve new opportunities and a way to make the
+                world a better place.
+              </p>
+              <p>
+                I also have small experience in training IT specialists for a
+                company and have some experience in the field of technical
+                support for users of a telecommunications provider.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_skills">
+      <div class="container">
+        <div class="section_skills__inner">
+          <div class="skills_list" id="skills">
+            <h2 class="skills_list__title section__header">Skills</h2>
+            <ul class="skills-list">
+              <li class="skills-list__item">
+                Linux, Windows, Android. Arduino, Raspberry Pi and etc.
+              </li>
+              <li class="skills-list__item">
+                Bash, Cmd.
+              </li>
+              <li class="skills-list__item">
+                Git, GitHub. Ansible. Docker, docker-compose.
+              </li>
+              <li class="skills-list__item">AWS, GCC.</li>
+              <li class="skills-list__item">HTML5, CSS3, SCSS. Gulp.</li>
+              <li class="skills-list__item">
+                Python, JavaScript, PHP, etc.
+              </li>
+              <li class="skills-list__item">
+                SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase),SQLite)
+              </li>
+              <li class="skills-list__item">
+                React, Redux, Django, Flask, Wordpress, Prestashop, etc.
+              </li>
+              <li class="skills-list__item">Machine learning (DeepPavlov). OpenCV.</li>
+              <li class="skills-list__item">Apache, NGINX.</li>
+              <li class="skills-list__item">
+                Arduino, IoT, 3d modeling and printing, etc.
+              </li>
+              <li class="skills-list__item">Search engine optimization.</li>
+              <li class="skills-list__item">
+                Computer graphics, Computer vision, Photography.
+              </li>
+              <li class="skills-list__item">
+                Adobe Photoshop, Adobe Illustrator, Gimp, Inkscape, Blender
+              </li>
+            </ul>
+          </div>
+          <div class="education" id="education">
+            <h2 class="education__title section__header">Education</h2>
+            <p class="education__item">
+              Master's degree in Computer Science and Information Technologies
+            </p>
+          </div>
+          <div class="courses" id="courses">
+            <h2 class="courses__title section__header">Courses</h2>
+            <div class="courses-list">
+              <ul>
+                <li class="courses-list__item">
+                  <a class="courses-list__link" href="https://www.codecademy.com/profiles/lipkij">Codeacademy</a>
+                </li>
+                <li class="courses-list__item">
+                  <a class="courses-list__link" href="https://www.w3profile.com/woxxel">www.w3schools.com</a>
+                </li>
+                <li class="courses-list__item">
+                  <a class="courses-list__link"
+                    href="https://www.codewars.com/users/rsschool_dcc13fc2f8aa0290">www.codewars.com</a>
+                </li>
+                <li class="courses-list__item">
+                  <a class="courses-list__link" href="https://leetcode.com/woxxel/">leetcode.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="projects" id="projects">
+            <h2 class="projects__title section__header">Projects</h2>
+            <ul class="projects-list">
+              <li class="project-list__item">
+                <a class="project-list__link" href="https://github.com/maksimzinchenko/JSPuzzle">Simple JS memory puzzle
+                  games</a>
+              </li>
+              <li class="project-list__item">
+                <a class="project-list__link" href="https://alcisdom.com/">Real estate agency website</a>
+              </li>
+              <li class="project-list__item">
+                <a class="project-list__link" href="https://www.youtube.com/watch?v=CucgqOaN1qQ">Youtube stream chat
+                  game engine</a>
+              </li>
+            </ul>
+          </div>
+          <div class="code" id="code">
+            <h2 class="code__title section__header">Code</h2>
+            <div class="code_wrapper">
+              <pre>
+const timerManager = {
+        timersIDArray: [],
+        setTimeout: function (fn, delay, ...params) {
+            let timerId = setTimeout(fn, delay, ...params);
+            this.timersIDArray.push(timerId);
+            return timerId;
+        },
+        clearTimeout: function (timerId) {
+            let index = this.timersIDArray.indexOf(timerId);
+            if (index > -1) {
+                this.timersIDArray.splice(index, 1);
+                clearTimeout(index);
+            }
+        },
+        clearAllTimeout: function () {
+            while (this.timersIDArray.length > 0) {
+                let index = this.timersIDArray.pop();
+                clearTimeout(index);
+            }
+        }
+    }</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_connect">
+      <div class="container">
+        <div class="section_connect__inner">
+          <div class="languages" id="languages">
+            <h2 class="languages__title section__header">Languages</h2>
+            <ul>
+              <li class="languages__item">English - Intermediate</li>
+              <li class="languages__item">Russian - Fluent (Native)</li>
+            </ul>
+          </div>
+          <div class="contacts" id="contacts">
+            <h2 class="contacts__title section__header">Contacts</h2>
+            <ul>
+              <li class="contact__item">Telegram: @Woxxel</li>
+              <li class="contact__item">E-mail: lipkij@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="gitgub_profile">
+          <a class="github_profile__link" href="https://github.com/maksimzinchenko">&gt; My GitHub</a>
+        </div>
+        <div class="cv_year">
+          <p class="cv_year__text">2022</p>
+        </div>
+        <div class="rs_school_block">
+          <a class="rs_school__link" href="https://rs.school/js/">
+            <img class="rs_school__img" src="https://rs.school/images/rs_school_js.svg" alt="RS school logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -7,7 +7,7 @@ Phone: +995557727266
 
 Telegram: @Woxxel
 
-## Briefly About Myself:
+## About myself:
 All my life I have been engaged in electronics, computers and technologies. 
 
 I try to study new technologies, deal with pilot developments and implement them in practice. 

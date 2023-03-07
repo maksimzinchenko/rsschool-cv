@@ -12,7 +12,7 @@ function redrawMenuButton() {
         btnMenu.innerText = "#";
         btnMenu.style.width = "40px";
     } else {
-        btnMenu.innerText = "> Menu";
+        btnMenu.innerText = "&gt; Menu";
         btnMenu.style.width = "100px";
     }
 }

@@ -40,13 +40,11 @@ SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase), SQLite)
 
 React, Redux, Django, Flask, Prestashop, Wordpress, etc.
 
-Machine learning(DeepPavlov), OpenCV
-
 Apache, NGINX
 
-AWS, GCC
+AWS (S3, EC2), GCC
 
-Git, GitHub, Docker
+Git, GitHub, Docker, docker-compose.
 
 System Administration, Computer Networking, Computer and equipment repair
 

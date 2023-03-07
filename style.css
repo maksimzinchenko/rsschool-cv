@@ -1,0 +1,376 @@
+:root {
+    --headerBackground: yellow;
+    --menuBackground: #000000;
+    --menuTextColor: #ffffff;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding: 0 30px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+  }
+  
+  .header {
+    background-color: var(--headerBackground);
+  }
+  
+  .header__inner {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .header__title {
+      font-size: 32px;
+    }
+  }
+  
+  .menu__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--menuBackground);
+    color: var(--menuTextColor);
+    padding: 3px;
+    font-size: 18px;
+    position: fixed;
+    top: 5px;
+    right: 30px;
+  }
+  
+  @media (min-width: 640px) {
+    .menu__button {
+      padding: 5px;
+      font-size: 22px;
+      position: fixed;
+      margin: 10px;
+      top: 10px;
+    }
+  }
+  
+  .section_profile__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+  }
+  .section_profile__title {
+    font-size: 32px;
+  }
+  
+  @media (min-width: 640px) {
+    .section_profile__title {
+      font-size: 64px;
+    }
+  }
+  
+  .section_profile__photo {
+    border-radius: 50%;
+    width: 100px;
+  }
+  
+  @media (min-width: 640px) {
+    .section_profile__photo {
+      width: 250px;
+    }
+  }
+  
+  .section_profile_about__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .section_profile_about__title {
+      font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .section_profile_about__content {
+      font-size: 22px;
+    }
+  }
+  
+  .skills_list__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .skills_list__title {
+      font-size: 32px;
+    }
+  }
+  
+  .skills-list__item {
+    font-size: 18px;
+    list-style: square;
+    line-height: 26px;
+  }
+  
+  @media (min-width: 640px) {
+    .skills-list__item {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  
+  .education__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .education__title {
+      font-size: 32px;
+    }
+  }
+  
+  .education__item {
+    font-size: 18px;
+    list-style: square;
+  }
+  
+  @media (min-width: 640px) {
+    .education__item {
+      font-size: 22px;
+    }
+  }
+  
+  .courses__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .courses__title {
+      font-size: 32px;
+    }
+  }
+  
+  .courses-list__item {
+    font-size: 18px;
+    list-style: square;
+    line-height: 26px;
+  }
+  
+  @media (min-width: 640px) {
+    .courses-list__item {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+  
+  .projects__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .projects__title {
+      font-size: 32px;
+    }
+  }
+  
+  .project-list__item {
+    font-size: 18px;
+    list-style: square;
+    line-height: 26px;
+  }
+  
+  @media (min-width: 640px) {
+    .project-list__item {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+  
+  .code__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .code__title {
+      font-size: 32px;
+    }
+  }
+  
+  pre {
+    font-size: 8px;
+    padding: 5px;
+    background-color: bisque;
+  }
+  
+  @media (min-width: 640px) {
+    pre {
+      font-size: 14px;
+      padding: 20px;
+    }
+  }
+  
+  .languages__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .languages__title {
+      font-size: 32px;
+    }
+  }
+  
+  .languages__item {
+    font-size: 18px;
+    list-style: square;
+    line-height: 26px;
+  }
+  
+  @media (min-width: 640px) {
+    .languages__item {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  
+  .contacts__title {
+    font-size: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .contacts__title {
+      font-size: 32px;
+    }
+  }
+  
+  .contact__item {
+    font-size: 18px;
+    list-style: square;
+    line-height: 26px;
+  }
+  
+  @media (min-width: 640px) {
+    .contact__item {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  
+  .footer {
+    background-color: var(--headerBackground);
+    padding: 10px;
+  }
+  
+  .footer__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu_list__wrapper {
+    padding-top: 100px;
+    font-size: 30px;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.88);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .menu-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-item {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .menu-link {
+    font-size: inherit;
+    line-height: 36px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background-color: #edd608;
+    color: black;
+  }
+  
+  .github_profile__link {
+      font-size: 18px;
+      text-decoration: none;
+  }
+  @media (min-width: 640px) {
+      .github_profile__link {
+        font-size: 32px;
+        line-height: 36px;
+      }
+    }
+  
+  .cv_year__text{
+      font-size: 18px;
+      font-weight: 700;
+  }
+  
+  @media (min-width: 640px) {
+      .cv_year__text {
+        font-size: 32px;
+        line-height: 36px;
+      }
+    }
+  
+  .rs_school__img {
+    width: 100px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  

@@ -3,18 +3,18 @@
     --menuBackground: #000000;
     --menuTextColor: #ffffff;
 }
-  
+
 html {
     box-sizing: border-box;
     color: #3a2608;
 }
-  
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
 }
-  
+
 body {
     min-width: 320px;
     overflow-x: hidden;
@@ -22,11 +22,11 @@ body {
     margin: 0;
     background-color: #F2AB39;
 }
-  
+
 .container {
     padding: 0 20px;
 }
-  
+
 @media (min-width: 640px) {
     .container {
         padding: 0 30px;
@@ -39,28 +39,28 @@ body {
         padding: 0 40px;
     }
 }
-  
+
 .header {
     background-color: var(--headerBackground);
 }
-  
+
 .header__inner {
     min-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
+
 .header__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .header__title {
         font-size: 32px;
     }
 }
-  
+
 .menu__button {
     width: 40px;
     height: 40px;
@@ -74,7 +74,7 @@ body {
     top: 5px;
     right: 30px;
 }
-  
+
 @media (min-width: 640px) {
     .menu__button {
         padding: 5px;
@@ -84,7 +84,7 @@ body {
         top: 10px;
     }
 }
-  
+
 .section_profile__inner {
     display: flex;
     flex-direction: column;
@@ -94,142 +94,142 @@ body {
 .section_profile__title {
     font-size: 32px;
 }
-  
+
 @media (min-width: 640px) {
     .section_profile__title {
         font-size: 64px;
     }
 }
-  
+
 .section_profile__photo {
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
-  
+
 @media (min-width: 640px) {
     .section_profile__photo {
         width: 250px;
         height: 250px;
     }
 }
-  
+
 .section_profile_about__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .section_profile_about__title {
         font-size: 32px;
     }
 }
-  
+
 @media (min-width: 640px) {
     .section_profile_about__content {
         font-size: 22px;
     }
 }
-  
+
 .skills_list__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .skills_list__title {
         font-size: 32px;
     }
 }
-  
+
 .skills-list__item {
     font-size: 18px;
     list-style: square;
     line-height: 26px;
 }
-  
+
 @media (min-width: 640px) {
     .skills-list__item {
         font-size: 22px;
         line-height: 28px;
     }
 }
-  
+
 .education__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .education__title {
         font-size: 32px;
     }
 }
-  
+
 .education__item {
     font-size: 18px;
     list-style: square;
 }
-  
+
 @media (min-width: 640px) {
     .education__item {
         font-size: 22px;
     }
 }
-  
+
 .courses__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .courses__title {
         font-size: 32px;
     }
 }
-  
+
 .courses-list__item {
     font-size: 18px;
     list-style: square;
     line-height: 26px;
 }
-  
+
 @media (min-width: 640px) {
     .courses-list__item {
         font-size: 22px;
         line-height: 32px;
     }
 }
-  
+
 .projects__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .projects__title {
         font-size: 32px;
     }
 }
-  
+
 .project-list__item {
     font-size: 18px;
     list-style: square;
     line-height: 26px;
 }
-  
+
 @media (min-width: 640px) {
     .project-list__item {
         font-size: 22px;
         line-height: 32px;
     }
 }
-  
+
 .code__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .code__title {
         font-size: 32px;
     }
 }
-  
+
 pre {
     font-size: 8px;
     padding: 5px;
@@ -240,73 +240,72 @@ pre {
                    5px 5px 5px #555555,
                    0 0 0 #3b3b3b inset,
                    0 0 0 #686868 inset;
-    
 }
-  
+
 @media (min-width: 640px) {
     pre {
         font-size: 14px;
         padding: 20px;
     }
 }
-  
+
 .languages__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .languages__title {
         font-size: 32px;
     }
 }
-  
+
 .languages__item {
     font-size: 18px;
     list-style: square;
     line-height: 26px;
 }
-  
+
 @media (min-width: 640px) {
     .languages__item {
         font-size: 22px;
         line-height: 28px;
     }
 }
-  
+
 .contacts__title {
     font-size: 20px;
 }
-  
+
 @media (min-width: 640px) {
     .contacts__title {
         font-size: 32px;
     }
 }
-  
+
 .contact__item {
     font-size: 18px;
     list-style: square;
     line-height: 26px;
 }
-  
+
 @media (min-width: 640px) {
     .contact__item {
         font-size: 22px;
         line-height: 28px;
     }
 }
-  
+
 .footer {
     background-color: var(--headerBackground);
     padding: 10px;
 }
-  
+
 .footer__inner {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-  
+
 .menu_list__wrapper {
     padding-top: 100px;
     font-size: 30px;
@@ -322,14 +321,14 @@ pre {
     z-index: 2;
     cursor: pointer;
 }
-  
+
 .menu-list {
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  
+
 .menu-item {
     list-style: none;
     padding: 10px 40px;
@@ -338,14 +337,14 @@ pre {
     font-size: 24px;
     border-radius: 15px;
 }
-  
+
 .menu-link {
     font-size: inherit;
     line-height: 36px;
     color: inherit;
     text-decoration: none;
 }
-  
+
 .menu-item:hover {
     background-color: #edd608;
     color: black;
@@ -353,7 +352,7 @@ pre {
     transition: all 0.2s;
 
 }
-  
+
 .github_profile__link {
     font-size: 18px;
     text-decoration: none;
@@ -364,19 +363,19 @@ pre {
         line-height: 36px;
     }
 }
-  
+
 .cv_year__text{
     font-size: 18px;
     font-weight: 700;
 }
-  
+
 @media (min-width: 640px) {
     .cv_year__text {
         font-size: 32px;
         line-height: 36px;
     }
 }
-  
+
 .rs_school__img {
     width: 100px;
     padding: 5px;
@@ -388,7 +387,6 @@ pre {
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
 }
-  
 
 @keyframes float {
     0% {
@@ -415,7 +413,6 @@ pre {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
-    
   }
 
   .box {
@@ -473,4 +470,3 @@ pre {
   .section__header {
     text-decoration: underline;
 }
-    

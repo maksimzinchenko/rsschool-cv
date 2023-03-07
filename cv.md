@@ -12,12 +12,14 @@ All my life I have been engaged in electronics, computers and technologies.
 
 I try to study new technologies, deal with pilot developments and implement them in practice. 
 
-Have some experience in training IT specialists for a company. 
+Have some experience in training IT specialists. 
 
 I conduct a regular audit of the technologies studied and the knowledge gained.
 
 
 Also have some experience in the field of technical support for users of a telecommunications provider.
+
+
 
 ## Code examples:
 [GitHub: https://github.com/maksimzinchenko](https://github.com/maksimzinchenko)

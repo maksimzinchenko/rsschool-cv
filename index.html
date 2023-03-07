@@ -170,13 +170,13 @@ const timerManager = {
         },
         clearTimeout: function (timerId) {
             let index = this.timersIDArray.indexOf(timerId);
-            if (index > -1) {
+            if (index &gt; -1) {
                 this.timersIDArray.splice(index, 1);
                 clearTimeout(index);
             }
         },
         clearAllTimeout: function () {
-            while (this.timersIDArray.length > 0) {
+            while (this.timersIDArray.length &gt; 0) {
                 let index = this.timersIDArray.pop();
                 clearTimeout(index);
             }

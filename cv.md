@@ -1,5 +1,5 @@
 # Maksim Zinchenko
-****
+
 ## Contact information:
 E-mail: lipkij@gmail.com
 
@@ -12,42 +12,41 @@ All my life I have been engaged in electronics, computers and technologies.
 
 I try to study new technologies, deal with pilot developments and implement them in practice. 
 
+Have some experience in training IT specialists for a company. 
+
 I conduct a regular audit of the technologies studied and the knowledge gained.
 
-Have small experience in training IT specialists for a company. 
 
 Also have some experience in the field of technical support for users of a telecommunications provider.
-
-I am fond of photography, 3D modeling and inventions. 
 
 ## Code examples:
 [GitHub: https://github.com/maksimzinchenko](https://github.com/maksimzinchenko)
 
 [Leetcode: https://leetcode.com/woxxel/](https://leetcode.com/woxxel/)
 
-[Codewars: https://www.codewars.com/users/woxxel](https://www.codewars.com/users/woxxel)
+[Codewars: https://www.codewars.com/users/rsschool_dcc13fc2f8aa0290](https://www.codewars.com/users/rsschool_dcc13fc2f8aa0290)
 
 ## Skills and Proficiency:
 
-Windows, Linux, Android. Bash, Cmd.
+Windows, Linux, Android. 
+
+Bash, Cmd.
 
 HTML5, CSS, SCSS
 
-JavaScript, PHP, Python, Java, Visual Basic and VBA, etc.
+JavaScript, PHP, Python, etc.
 
 SQL (PostgreSQL, MySQL, Microsoft Access, Firebird(Interbase), SQLite)
 
-Prestashop, Wordpress, Django, Flask custom engines
+React, Redux, Django, Flask, Prestashop, Wordpress, etc.
 
-Machine learning(DeepPavlov)
-
-OpenCV
+Machine learning(DeepPavlov), OpenCV
 
 Apache, NGINX
 
 AWS, GCC
 
-Git, GitHub, Jenkins, Docker
+Git, GitHub, Docker
 
 System Administration, Computer Networking, Computer and equipment repair
 
